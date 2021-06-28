@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Proyect</title>
+</head>
+<body>
+    
+    <div id="modal_save"></div>
+
+    <div class="header"> 
+        <div class="log">Sensoscale</div>
+        <div class="menu">
+            <span class="menu_1"></span>
+            <span class="menu_2"></span>
+            <span class="menu_3"></span>
+
+            <span class="menu_text" onclick="modal_save()">
+                <span >Save</span>
+            </span>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <span id="peso">
+            <span class="peso_text">0</span><span class="peso_text_kg">KG</span>
+        </span>
+        <span class="btn disconnet" id="connect">DISCONNECT</span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
